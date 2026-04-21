@@ -42,10 +42,17 @@ app.post('/api/produk', async (req, res) => {
   }
 });
 
+app.get('/api/status', (req, res) => {
+  res.json({ message: 'Backend berjalan dengan baik' });
+});
+
 app.listen(process.env.PORT, () => {
   console.log(`Server berjalan di http://localhost:${process.env.PORT}`);
 });
+<<<<<<< HEAD
 
 app.get('/api/status', (req, res) => {
   res.json({ message: 'Backend berjalan dengan baik' });
 });
+=======
+>>>>>>> origin/main

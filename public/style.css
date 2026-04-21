@@ -30,3 +30,8 @@ button {
 ul {
   padding-left: 20px;
 }
+footer {
+  margin-top: 20px;
+  text-align: center;
+  color: #555;
+}
